@@ -2,31 +2,23 @@ package backend;
 
 import javafx.collections.*;
 
-import java.io.*;
-import java.util.*;
-
 public class Menu{
     /**
      * This class is where the Menu is created. This class is only used by MenuView. I created ten meals, a short but delicious menu
      * full of foods you may or may not recognize as per the tweaked names.
      */
     private Foods [] meals = new Foods[10];
-    ObservableList<Foods> foods = FXCollections.observableArrayList(meals);
-
     public Menu(){
         createFoods();
         getFoods(meals);
-
     }
-
     /**
      * Made into an observable list so it could then be applied to the List View Item which is MenuView.
+     *
      * @param meals being created
-     * @return array of meals
      */
-
-    public ObservableList<Foods> getFoods(Foods [] meals){
-        return FXCollections.observableArrayList(meals);
+    public void getFoods(Foods [] meals){
+        FXCollections.observableArrayList(meals);
     }
     // has to be called so that the menu is created
     public Foods[] createFoods() {
