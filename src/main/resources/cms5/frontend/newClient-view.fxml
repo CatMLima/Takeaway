@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ButtonType?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<DialogPane stylesheets="@../../stylesheets/newClient-view.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="NEW USER REGISTRATION">
+                     <font>
+                        <Font name="Broadway" size="40.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" right="15.0" top="50.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Name:">
+                     <font>
+                        <Font name="Book Antiqua" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="fxClientName" alignment="CENTER" prefHeight="26.0" prefWidth="286.0" promptText="insert your name" styleClass="textfield" stylesheets="@../../stylesheets/newClient-view.css" />
+               </children>
+               <padding>
+                  <Insets left="100.0" top="35.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Address:">
+                     <font>
+                        <Font name="Book Antiqua" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="fxClientAddress" alignment="CENTER" prefHeight="26.0" prefWidth="268.0" promptText="insert your address" styleClass="textfield" stylesheets="@../../stylesheets/newClient-view.css" HBox.hgrow="NEVER" />
+               </children>
+               <padding>
+                  <Insets left="100.0" top="35.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </content>
+   <buttonTypes>
+      <ButtonType fx:id="fxOK" buttonData="OK_DONE" text="Register" />
+      <ButtonType fx:id="fxCANCEL" buttonData="CANCEL_CLOSE" text="Cancel" />
+   </buttonTypes>
+</DialogPane>

@@ -1,0 +1,9 @@
+
+.label{
+    -fx-border-color: black;
+    -fx-background-color: white;
+}
+.button{
+    -fx-background-color: #D5F3FE;
+    -fx-border-color: black;
+}

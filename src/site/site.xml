@@ -1,0 +1,8 @@
+<project>
+    <body>
+        <menu name="Overview">
+            <item name="Documentation" href="markdown.html" />
+        </menu>
+        <menu ref="reports" />
+    </body>
+</project>

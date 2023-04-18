@@ -1,0 +1,26 @@
+.label {
+    font-size: 20em;
+    font-weight: bold;
+}
+.button {
+    -fx-background-color: #0181e2ff;
+    -fx-border-color: black;
+}
+
+.list-cell:even{
+    -fx-background-color: #EDEDED;
+}
+.list-cell{
+    -fx-background-color: #EDEDED;
+}
+
+.differentList-cell{
+    -fx-background-color: #9b9ec7;
+}
+.textField{
+    -fx-border-color: black;
+}
+.bigMenu{
+    -fx-border-color: #0181e2ff;
+    -fx-background-color: #0181e2ff;
+}
