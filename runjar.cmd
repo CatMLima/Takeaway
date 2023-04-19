@@ -1,0 +1,1 @@
+java jar -x -f C:\Users\catis\OneDrive - Menntaský\Documents\Y1 S2\Viðmótsforritun - HBV201G\Takeaway\out\artifacts\Takeaway_jar\Takeaway.jar

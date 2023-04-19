@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: src.main.java.cms5.frontend.TakeawayApplication
+Class-Path: target
+Created-By: 17. 0 .6 (Eclipse Adoptium)
