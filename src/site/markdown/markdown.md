@@ -1,9 +1,5 @@
 # UML Class Diagrams
 
-#### Backend Diagram
+#### Backend and Frontend Class Diagram
 
-![uml.jpg](backenduml.png)
-
-#### Frontend Diagram
-
-![uml.jpg](frontenduml.png)
+![uml.jpg](takeawayuml.png)
