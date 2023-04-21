@@ -2,4 +2,4 @@
 
 #### Backend and Frontend Class Diagram
 
-![uml.jpg](takeawayuml.png)
+![uml.jpg](TakeawayUML.jpg)
